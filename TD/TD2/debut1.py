@@ -15,7 +15,7 @@ y0 = 70
 canvas.create_line(x, y0, x, y1)
 canvas.create_oval(x - 50, y0 + 50, x + 50, y0 - 50)
 canvas.create_oval(x - 50, y1 + 50, x + 50, y1 - 50)
-canvas.create_oval(x + 50, (y0 + y1) / 2 - 50, x - 50, (y0 + y1) / 2 + 50)
+canvas.create_oval(x - 50, (y0 + y1) / 2 + 50, x + 50, (y0 + y1) / 2 - 50)
 # Fin de votre code
 
 canvas.grid()
